@@ -55,14 +55,14 @@ const Formulario = () =>{
                 </aside>
 
                 <form className="form" onSubmit={handleSubmit}>
-                    <label>LogoTipo:</label>
+                    <label>Logo:</label>
                     <input type="file" onChange={handleLogoTipoChange}/>
 
                     <label>Nome:</label>
                     <input type="text" value={nome} onChange={(e) => setNome(e.target.value)} />
 
                     <label>CNPJ:</label>
-                    <input type="number" value={cnpj} onChange={(e) => setCnpj(e.target.value)} />
+                    <input type="text" value={cnpj} onChange={(e) => setCnpj(e.target.value)} />
 
                     <label>Endereço:</label>
                     <input type="text" value={endereco} onChange={(e) => setEndereco(e.target.value)} />
