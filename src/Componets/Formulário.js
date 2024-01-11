@@ -3,6 +3,7 @@ import "../App.css";
 import { IoHome } from "react-icons/io5";
 import { FaRegPenToSquare } from "react-icons/fa6";
 import { FaRegAddressBook } from "react-icons/fa6";
+import { AiOutlineControl } from "react-icons/ai";
 import LogoMarca from './img/logoCangame.png';
 
 const Formulario = () =>{
@@ -52,6 +53,7 @@ const Formulario = () =>{
                     <button><IoHome /> Home</button>
                     <button><FaRegPenToSquare /> Cadastro de Contrato</button>
                     <button><FaRegAddressBook /> Cadastro de Licenças</button>
+                    <button><AiOutlineControl />Controle de Licenças</button>
                 </aside>
 
                 <form className="form" onSubmit={handleSubmit}>
